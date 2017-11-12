@@ -11,6 +11,9 @@ ln -s ./Dropbox/00_hvl/dat157/ dat157
 ########################################
 sudo apt-get install python3-pip
 
+#all at once
+pip3 install numpy pandas scikit-learn matplotlib jupyter python-config
+
 pip3 install numpy
 pip3 install pandas
 pip3 install scikit-learn
