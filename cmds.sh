@@ -29,3 +29,6 @@ git config credential.helper store
 # Change shell
 #########################################
 chsh
+
+# Create usb disk with CentOS
+dd if=CentOS-6.5-x86_64-bin-DVD1.iso of=/dev/sdb
