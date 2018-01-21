@@ -22,7 +22,7 @@ pip3 install jupyter
 pip3 install python-config
 # evt ipython3 profile create 
 
-# how-to-save-username-and-password-in-git
+# save-username-and-password-in-git
 #########################################
 git config credential.helper store
 
@@ -35,3 +35,6 @@ dd if=CentOS-6.5-x86_64-bin-DVD1.iso of=/dev/sdb
 
 # To find all socket files on your system run:
 sudo find / -type s
+
+# merge pdfs to one pdf
+pdfunite in-1.pdf in-2.pdf in-n.pdf out.pdf
