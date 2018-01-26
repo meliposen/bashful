@@ -38,3 +38,7 @@ sudo find / -type s
 
 # merge pdfs to one pdf
 pdfunite in-1.pdf in-2.pdf in-n.pdf out.pdf
+
+# from bash nix
+source ~/.nix-profile/etc/profile.d/nix.sh
+
