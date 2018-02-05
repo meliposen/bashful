@@ -1,1 +1,1 @@
-# nyttigBash
+useful shell cmds
