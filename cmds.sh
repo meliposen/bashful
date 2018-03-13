@@ -31,16 +31,25 @@ git config credential.helper store
 chsh
 
 # Create usb disk with CentOS
+#########################################
 dd if=CentOS-6.5-x86_64-bin-DVD1.iso of=/dev/sdb
 
 # To find all socket files on your system run:
+#########################################
 sudo find / -type s
 
 # merge pdfs to one pdf
+#########################################
 pdfunite in-1.pdf in-2.pdf in-n.pdf out.pdf
 
 # from bash nix
+#########################################
 source ~/.nix-profile/etc/profile.d/nix.sh
 
 # edit nameserver
+#########################################
 sudo emacs /etc/resolv.conf &
+
+# add the todo alias "t"
+#########################################
+alias t='"/home/mel/Dropbox/todo/todo.sh"' 
