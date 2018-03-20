@@ -28,7 +28,7 @@ git config credential.helper store
 
 # Change shell
 #########################################
-chsh
+chsh # for fish, type /usr/bin/fish 
 
 # Create usb disk with CentOS
 #########################################
