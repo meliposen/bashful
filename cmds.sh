@@ -53,3 +53,16 @@ sudo emacs /etc/resolv.conf &
 # add the todo alias "t"
 #########################################
 alias t='"/home/mel/Dropbox/todo/todo.sh"' 
+
+# install i3
+# will be installed (ubuntu):
+## dunst i3 i3lock libxdg-basedir1 suckless-tools
+# suggested
+## dwm stterm surf
+sudo apt install i3
+
+# surf
+## Simple web browser by suckless community
+
+# dunst
+## dmenu-ish notification-daemon
